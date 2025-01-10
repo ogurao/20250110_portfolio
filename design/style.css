@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #FFE8ED;
+}
+
+h1{
+    font-family: "Sonsie One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-size: 32px;
+    color: #FF8DA5;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+/********************
+* ヘッダー
+*********************/
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 99px;
+    padding: 30px;
+    justify-content: space-between;
+    background: #FF8DA5;
+    color: #fff;
+}
+
+
+/********************
+* メイン
+*********************/
+
+.main-visual{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#about{
+    display: flex;
+    padding: 150px 0 0 0;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pbox{
+    display: flex;
+    padding: 70px 80px;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFD3DD;
+    border-radius: 20px;
+    color: #5a5a5a;
+}
+
+.skill{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+#menu{
+    text-align: center;
+    padding: 150px 0 0 0;
+}
+
+#menu .h2{
+    gap: 30px;
+}
+
+
+#menu .list{
+    display: flex;
+    width: 1178px;
+    margin: auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #5a5a5a;
+}
+
+.fo{
+    padding: 150px 0 150px 0;
+}
+
+form{
+    display: flex;
+    width: 565px;
+    padding: 50px;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFD3DD;
+    border-radius: 20px;
+    color: #5a5a5a;
+}
+
+.form-heasing{
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
+
+.form-item {
+    align-items: center;
+  }
+  .form-item + .form-item {
+    margin-top: 40px;
+  }
+  .form-heading {
+    width: 250px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  input{
+    width: 465px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+
+  }
+
+  .btn-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 0 0 0;
+  }
+button{
+    padding: 14px 50px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 28px;
+    background: #FF8DA5;
+
+}
+
+
+
+
+
+/********************
+* フッター
+*********************/
+
+footer{
+    display: flex;
+    height: 100px;
+    padding: 26px 640px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #FF8DA5;
+    color: #fff;
+}
