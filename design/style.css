@@ -37,6 +37,7 @@ ul{
     list-style: none;
 }
 
+
 /********************
 * ヘッダー
 *********************/
@@ -50,12 +51,55 @@ header{
     justify-content: space-between;
     background: #FF8DA5;
     color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
+nav{
+    /* width: 100%;
+    height: 70px;
+    padding-top: 5px;
+    box-sizing: border-box; */
+    display: flex;
+    padding: 26px 40px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
 
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.item a{
+    color:#111; }
+    .item a img:hover{
+        opacity:0.5;
+        transition:0.3s;
+}
 /********************
 * メイン
 *********************/
+main{
+    padding-top: 99px;
+}
 
 .main-visual{
     width: 100%;
@@ -81,7 +125,9 @@ header{
     background: #FFD3DD;
     border-radius: 20px;
     color: #5a5a5a;
+    box-shadow: 0px 5px 15px 0px rgba(105, 13, 36, 0.35);
 }
+
 
 .skill{
     display: flex;
@@ -108,7 +154,27 @@ header{
     color: #5a5a5a;
 }
 
-.fo{
+#menu-2{
+    text-align: center;
+    padding: 150px 0 0 0;
+}
+
+#menu-2 .h2{
+    gap: 30px;
+}
+
+
+#menu-2 .list{
+    display: flex;
+    width: 1178px;
+    margin: auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #5a5a5a;
+}
+
+
+#contact{
     padding: 150px 0 150px 0;
 }
 
@@ -122,6 +188,7 @@ form{
     background: #FFD3DD;
     border-radius: 20px;
     color: #5a5a5a;
+    box-shadow: 0px 5px 15px 0px rgba(105, 13, 36, 0.35);
 }
 
 .form-heasing{
